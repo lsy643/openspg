@@ -9,7 +9,8 @@ def main():
         version_name='1',
     )    
     triton_deployer.upload_dag()
-    
+    triton_deployer.deploy_service()
+
 
 if __name__ == '__main__':
     main()
